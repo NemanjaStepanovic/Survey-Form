@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
+
+#title {
+    font-family: 'Major Mono Display', monospace;
+}
+
+#survey-form {
+    padding: 2vw;
+    background-color: white;
+    margin-bottom: 5vh;
+    border-radius: 10px;
+}
+
+#description {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+p, #name-label, #email-label, #number-label, #dropdown-label {
+    font-weight: bold;
+}
+
+label {
+    font-weight: normal;
+}
+
+.lastElement {
+    margin-bottom: 5vh;
+}
+
+
+/** Smartphone styles **/
+@media (max-width: 480px) {
+    #survey-form {
+        padding: 5vw;
+        margin-bottom: 7.5vh;
+    }
+
+    #description {
+        font-size: 1.3rem;
+    }
+}
